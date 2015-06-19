@@ -11,9 +11,10 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 # Install the dependencies.
 RUN apt-get update && \
     apt-get install -y \
-		build-essential \
+		bison build-essential \
 		chrpath \
 		dh-autoreconf diffstat \
+		flex \
 		gawk gcc-multilib gperf git-core \
 		libqtgui4:i386 libsdl1.2-dev libtool \
         texinfo \
