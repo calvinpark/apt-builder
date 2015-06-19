@@ -13,7 +13,7 @@ RUN apt-get update && \
     apt-get install -y \
 		build-essential \
 		chrpath \
-		diffstat \
+		dh-autoreconf diffstat \
 		gawk gcc-multilib git-core \
 		libqtgui4:i386 libsdl1.2-dev libtool \
         texinfo \
