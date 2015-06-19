@@ -14,7 +14,7 @@ RUN apt-get update && \
 		build-essential \
 		chrpath \
 		dh-autoreconf diffstat \
-		gawk gcc-multilib git-core \
+		gawk gcc-multilib gperf git-core \
 		libqtgui4:i386 libsdl1.2-dev libtool \
         texinfo \
         unzip \
