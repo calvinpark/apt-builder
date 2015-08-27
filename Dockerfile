@@ -19,5 +19,6 @@ RUN apt-get update && \
 		libqtgui4:i386 libsdl1.2-dev libtool \
         texinfo \
         unzip \
+        vim-common \
         wget && \
     apt-get clean
